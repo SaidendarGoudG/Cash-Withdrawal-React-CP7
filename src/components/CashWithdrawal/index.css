@@ -1,0 +1,145 @@
+/* Write your CSS here */
+
+.cash-withdrawal-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-withdrawal-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 300px;
+  max-height: 500px;
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-card-container {
+    max-width: 500px;
+    max-height: 600px;
+  }
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.name-icon {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 30px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #d4d2db;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .name-icon {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 30px;
+  }
+}
+
+.balance-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance-note {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #585076;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-note {
+    font-size: 28px;
+  }
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #d4d2db;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance {
+    font-size: 40px;
+  }
+}
+
+.balance-currency {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #585076;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance {
+    font-size: 40px;
+  }
+  .balance-currency {
+    font-size: 25px;
+  }
+}
+
+.balance-withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdraw-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #d4d2db;
+  margin-bottom: 0px;
+}
+
+.choose-withdraw-sum {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #585076;
+}
+
+@media screen and (min-width: 768px) {
+  .withdraw-heading {
+    font-size: 35px;
+  }
+
+  .choose-withdraw-sum {
+    font-size: 25px;
+  }
+}
+
+.denomination-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
